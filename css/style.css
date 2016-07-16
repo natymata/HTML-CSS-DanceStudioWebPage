@@ -1,0 +1,280 @@
+*
+{
+	margin:0;
+	padding:0
+}
+
+html{
+	background-color:#f6f6f6;
+}
+
+body{
+	font: normal 13px/24px "Muli", verdana, Helvetica, Sans-Serif;
+	color: #606060;
+}
+
+.cf{
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+.rigth{
+	float: right;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.header-container{
+	background-color:#303030;
+	width: 100%;
+	padding: 23px 0 19px;
+	margin-bottom: 38px;
+}
+
+.header, .footer{
+	width: 962px;
+	margin:0 auto 12px;
+}
+
+.logo, .main-box, .gallery{
+	margin-left: 10px;
+}
+
+.wrapper{
+	background-color:#f6f6f6;
+	width: 962px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: #606060;
+}
+
+ul{
+	list-style: none inside;
+}
+
+.main-navigation, .main-image, .enrollment{
+	margin-right: 12px;  
+}
+
+.navigation{
+	margin-left: 18px;
+}
+
+.navA{
+	display: block;
+	margin-top: 10px;
+	padding: 8px 0;
+	text-align: center;
+	color: #8c8c8c;
+	font: normal 15px/24px "Muli", "cursive", Helvetica, Sans-Serif;
+}
+
+.navA:hover{
+	color:#ffffff;
+}
+
+.main-box{
+	width: 460px;
+}
+
+.main-content{
+	margin-bottom: 33px;
+}
+
+h1, h2, h3{
+	color:#000000;
+}
+
+h1, legend{
+	font: normal 21px/30px "Nixie One", Georgia, serif;
+	margin-bottom: 26px;
+}
+
+p{
+	font-weight: 200;
+	word-spacing: 2px;
+	margin-bottom: 31px;
+}
+
+.main-image{
+	border: 8px solid #ffffff;
+}
+
+.gallery{
+	width: 584px;
+}
+
+.gallery-containerA{
+	margin-right: 18px;
+}
+
+h2{
+	font: normal 18px/30px "Nixie One", Georgia, serif;
+	margin-bottom: 24px;
+}
+
+h3{
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: 18px;
+}
+
+.gallery-p{
+	font-size: 11px;
+}
+
+table{
+	width: 315px;
+}
+
+td{
+	padding-right:5px;
+}
+
+tr.margin{
+	height: 50px;
+	vertical-align: top;
+}
+
+.underline:hover{
+	text-decoration: underline;
+}
+
+.footer-container{
+	width: 100%;
+	background-color: #ffffff;
+	font: normal 11px/24px Arial, Helvetica, Sans-Serif;
+	margin-bottom: 20px;
+}
+
+.footer-menu{
+	width: 220px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h4{
+	margin-bottom: 14px;
+	margin-top: 18px;
+	font-weight: 500;
+}
+
+.right-menu{
+	margin-left: 23px;
+}
+
+.margBot{
+	margin-bottom: 6px;
+}
+
+.right-options{
+	margin-left: 90px;
+}
+
+.index-mail{
+	height: 27px;
+	width: 220px;
+}
+
+.input-container{
+	position: relative;
+}
+
+#triangle{
+	position: absolute;
+	right: -3px;
+	bottom: 2px;
+}
+
+/*contact-styles*/
+
+.main-content-contact{
+	margin-bottom: 530px;
+	/*Solo con este posicionamiento logre que se alineara correctamente en firefox, pero no estoy 100% segura si esta correcto, por eso lo dejo comentado*/
+	position: relative;
+	top:-490;
+}
+
+.info-mail{
+	text-decoration: underline;
+}
+
+.main-form{
+	width: 460px;
+}
+
+.control-group{
+	margin-bottom: 20px;
+
+}
+
+legend, input, label, textarea{
+	display: block;
+}
+
+label{
+	width: 302px;
+	margin-bottom: 10px;
+}
+
+input{
+	width: 302px;
+	line-height: 28px;
+}
+
+textarea{
+	resize: none;
+	height: 138px;
+	width: 440px;
+	line-height: 28px;
+}
+
+input, textarea{
+	border:none;
+	border:1px solid #b3b3b3;
+}
+
+#btnSubmit{
+	border:none;
+	float:left;
+	background-color: #303030;
+	color:#ffffff;
+	width: 80px;
+	border-radius: 20px;
+}
+
+#btnSubmit:hover{
+	background-color: #000000;
+	border: 1px solid #000000;
+
+}
+
+.hover:hover{
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
